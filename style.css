@@ -17,3 +17,21 @@ th, td {
   border: 1px solid #ccc;
   padding: 8px 12px;
 }
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+th {
+  background: #e8f0fe;
+}
+.ev-plus {
+  color: green;
+  font-weight: bold;
+}
+.ev-minus {
+  color: red;
+}
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
